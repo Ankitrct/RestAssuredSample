@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10508" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10508" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+      <class name="RestApi.RestApi.TestApi">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:RestApi.RestApi.TestApi@11758f2a]" name="GetWeatherDetails" duration-ms="10218" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
+      </class> <!-- RestApi.RestApi.TestApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
