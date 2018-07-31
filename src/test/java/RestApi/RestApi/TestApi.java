@@ -10,7 +10,6 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class TestApi {
-
 	
 	@Test
 	public void GetWeatherDetails()
@@ -31,6 +30,7 @@ public class TestApi {
 		String statusline = response.getStatusLine();
 		System.out.println("The status line is  =>  " + statusline);
 		
+		//Get all the header information
 		Headers allheader = response.headers();
 		
 		for (Header headerinfo : allheader) {
