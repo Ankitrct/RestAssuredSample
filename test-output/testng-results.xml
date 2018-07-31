@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10508" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+  <suite name="Default suite" duration-ms="14081" started-at="2018-07-31T18:08:45Z" finished-at="2018-07-31T18:08:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10508" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+    <test name="Default test" duration-ms="14081" started-at="2018-07-31T18:08:45Z" finished-at="2018-07-31T18:08:59Z">
       <class name="RestApi.RestApi.TestApi">
-        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:RestApi.RestApi.TestApi@11758f2a]" name="GetWeatherDetails" duration-ms="10218" started-at="2018-07-31T16:05:26Z" finished-at="2018-07-31T16:05:37Z">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:RestApi.RestApi.TestApi@1b26f7b2]" name="GetWeatherDetails" duration-ms="9939" started-at="2018-07-31T18:08:45Z" finished-at="2018-07-31T18:08:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetWeatherDetails -->
+        <test-method status="PASS" signature="RegistrationSuccessful()[pri:0, instance:RestApi.RestApi.TestApi@1b26f7b2]" name="RegistrationSuccessful" duration-ms="3852" started-at="2018-07-31T18:08:55Z" finished-at="2018-07-31T18:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationSuccessful -->
       </class> <!-- RestApi.RestApi.TestApi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
